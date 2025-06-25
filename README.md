@@ -1,12 +1,26 @@
-# React + Vite
+## 🎯 Project Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+youtube-app is a fast, modern video streaming web app built with **React** and **Vite** that fetches and displays real-time video content using the **YouTube Data API (via RapidAPI)**.
 
-Currently, two official plugins are available:
+## 💡 Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎥 Browse trending videos by category
+- 🔎 Search and watch any YouTube video
+- 📺 Responsive video player with detailed metadata
+- 🧭 Dynamic routing for channels and video pages
+- ⚡ Built with Vite for fast development and hot reloading
+- 🛡️ API key handling via environment variables
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React 18** — UI Library
+- **React Router** — Client-side routing
+- **Vite** — Lightning-fast bundler and dev server
+- **RapidAPI (YouTube Data API v3)** — Video data source
+- **CSS Modules** — Component-scoped styling
+- **Render.com** — Cloud deployment platform
+
+## 📸 Screenshots
+
+![Home Page](./src/assets/screenshot0.png)  
+![Video Page](./src/assets/screenshot1.png)
